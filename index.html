@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mabo LLC - Business Advisory Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #8a63ff; /* Purple accent */
+            --dark-bg: #121212;
+            --dark-card: #1e1e1e;
+            --text: #e0e0e0;
+            --text-light: #b0b0b0;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', -apple-system, sans-serif;
+        }
+        
+        body {
+            background-color: var(--dark-bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        
+        header {
+            background: var(--dark-card);
+            padding: 1.5rem 0;
+            border-bottom: 1px solid #2e2e2e;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .logo {
+            font-weight: 600;
+            font-size: 1.5rem;
+            color: var(--primary);
+            letter-spacing: -0.5px;
+        }
+        
+        .hero {
+            padding: 6rem 0 4rem;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(90deg, var(--primary), #c478ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .subtitle {
+            font-size: 1.1rem;
+            color: var(--text-light);
+            max-width: 600px;
+            margin: 0 auto 2.5rem;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 0.8rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin: 1rem 0;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(138, 99, 255, 0.3);
+        }
+        
+        .address {
+            background: var(--dark-card);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 3rem auto;
+            max-width: 400px;
+            border: 1px solid #2e2e2e;
+        }
+        
+        .address h3 {
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+        
+        .address p {
+            color: var(--text-light);
+            line-height: 1.8;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 3rem 0;
+            color: var(--text-light);
+            font-size: 0.9rem;
+            border-top: 1px solid #2e2e2e;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            .hero {
+                padding: 4rem 0 3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Mabo LLC</div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Strategic Business Advisory</h1>
+                <p class="subtitle">HELPING BUSINESSES THRIVE BY DELIVERING QUALITY, TAILORED SOLUTIONS WITH EFFICIENCY AND INNOVATION</p>
+                <a href="https://dashboard.stripe.com/..." class="cta-button">
+                    Get Started <i class="fas fa-arrow-right"></i>
+                </a>
+                
+                <div class="address">
+                    <h3>Our Headquarters</h3>
+                    <p>
+                        1200 Hibiscus Ave Apt 905<br>
+                        Pompano Beach, FL 33062<br>
+                        United States
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Mabo LLC. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
